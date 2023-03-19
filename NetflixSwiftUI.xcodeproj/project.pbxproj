@@ -20,6 +20,7 @@
 		939A952C29C3547100D02F29 /* SmallVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A952B29C3547100D02F29 /* SmallVerticalButton.swift */; };
 		939A952F29C6F8B600D02F29 /* WhitePlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A952E29C6F8B600D02F29 /* WhitePlayButton.swift */; };
 		939A953329C70DF100D02F29 /* TopHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A953229C70DF100D02F29 /* TopHeaderView.swift */; };
+		939A953729C72B3700D02F29 /* MovieDetailCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A953629C72B3700D02F29 /* MovieDetailCanvas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		939A952B29C3547100D02F29 /* SmallVerticalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallVerticalButton.swift; sourceTree = "<group>"; };
 		939A952E29C6F8B600D02F29 /* WhitePlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhitePlayButton.swift; sourceTree = "<group>"; };
 		939A953229C70DF100D02F29 /* TopHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopHeaderView.swift; sourceTree = "<group>"; };
+		939A953629C72B3700D02F29 /* MovieDetailCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailCanvas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +117,8 @@
 		939A952329C3414D00D02F29 /* Mid Part */ = {
 			isa = PBXGroup;
 			children = (
-				939A952929C3462400D02F29 /* View */,
-				939A952829C3461B00D02F29 /* View Model */,
-				939A952729C3461200D02F29 /* Model */,
+				939A953529C72B2700D02F29 /* MovieDetail */,
+				939A953429C72B1C00D02F29 /* First Page */,
 			);
 			path = "Mid Part";
 			sourceTree = "<group>";
@@ -179,6 +180,24 @@
 				939A952A29C3545B00D02F29 /* Small Button View */,
 			);
 			path = "Reuseable Views";
+			sourceTree = "<group>";
+		};
+		939A953429C72B1C00D02F29 /* First Page */ = {
+			isa = PBXGroup;
+			children = (
+				939A952929C3462400D02F29 /* View */,
+				939A952829C3461B00D02F29 /* View Model */,
+				939A952729C3461200D02F29 /* Model */,
+			);
+			path = "First Page";
+			sourceTree = "<group>";
+		};
+		939A953529C72B2700D02F29 /* MovieDetail */ = {
+			isa = PBXGroup;
+			children = (
+				939A953629C72B3700D02F29 /* MovieDetailCanvas.swift */,
+			);
+			path = MovieDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +286,7 @@
 				939A952629C3417400D02F29 /* TopMoviePreview.swift in Sources */,
 				939A951929C3153A00D02F29 /* MovieModel.swift in Sources */,
 				939A950629C30A1800D02F29 /* NetflixSwiftUIApp.swift in Sources */,
+				939A953729C72B3700D02F29 /* MovieDetailCanvas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

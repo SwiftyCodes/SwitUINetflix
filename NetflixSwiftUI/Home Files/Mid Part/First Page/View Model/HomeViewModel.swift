@@ -25,12 +25,7 @@ class HomeViewModel : ObservableObject {
         movieWithCategory["Trending Now"] = movieArray.shuffled()
         movieWithCategory["Comedy"] = movieArray.shuffled()
         movieWithCategory["Thriller"] = movieArray.shuffled()
-        movieWithCategory["Keep Watching"] = movieArray.shuffled()
-        movieWithCategory["Sci-Fi"] = movieArray.shuffled()
-        movieWithCategory["Drama"] = movieArray.shuffled()
-        movieWithCategory["Action"] = movieArray.shuffled()
-        movieWithCategory["Romantic"] = movieArray.shuffled()
-        movieWithCategory["Amine"] = movieArray.shuffled()
+
     }
     
     func getMovie(forCat : String) -> [MovieModel] {
